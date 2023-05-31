@@ -1,0 +1,102 @@
+.body {
+    background-color:#ECCDB4;
+}
+
+.search { 
+    display: flex;
+    justify-content: space-between; 
+    justify-content: flex-end;
+    padding: 40px;
+
+    
+    
+    
+    
+    
+    /*position: sticky;
+    top: 0; */
+
+}
+.holaaa {
+    font-size: medium;
+}
+.presentation {
+    color: black;
+    margin: 30px;
+}
+.presentation-2 {
+    color:#FF6969;
+    margin: 30px;
+
+}
+.description {
+    margin: 30px;
+}
+.first-button { 
+    padding: 20px;
+    margin: 30px;
+    border-radius: 30px; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background-color:#FF6969;
+    box-shadow: black; 
+}
+
+.img {
+    width: 50%;
+    height: 20%;
+
+}
+.conocimientos {
+    text-align: center;
+
+}
+#nombre-usuario{
+    padding: 10px;
+    border-radius: 50px; 
+    height: 20px;
+}
+
+#apellido {
+    padding: 10px;
+    border-radius: 50px; 
+    height: 20px;
+
+}
+#form-email {
+    padding: 10px;
+    border-radius: 50px; 
+    height: 20px;
+    
+}
+.send {
+ padding: 30px;
+ background-color: #FF6969;
+ border-radius: 30px;
+ margin: 30px;
+ height: 40px;
+ font-size: medium;
+}
+.Contacto {
+    display: flex;
+    justify-content: center;
+    background-color: beige;
+    border-radius: 40px;
+    padding: 10px;
+    margin: 100px;
+}
+.Contacto-box {
+    width: 40%;
+    height: 30%;
+    background-color:beige;
+    margin: 30px;
+    
+}
+.Escribime {
+    margin: 30px;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: space-between;
+}
