@@ -31,11 +31,16 @@
 .first-button { 
     padding: 20px;
     margin: 30px;
-    border-radius: 30px; 
+    border-radius: 30px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     background-color:#FF6969;
     box-shadow: black; 
+}
+.first-button:hover {
+   color: #FF6969;
+    background-color: aliceblue;
+    border-color: black;
 }
 
 img {
@@ -59,9 +64,7 @@ img {
     flex-direction: row;
 }
 .HTML-5 {
-    background-color: black;
-    height: 20px;
-    width: 30px;
+     
 }
 .CSS-3 {
     background-color: aqua;
@@ -87,13 +90,13 @@ img {
     text-align: center;
     
 }
-#nombre-usuario{
+#input-name {
     padding: 10px;
     border-radius: 50px; 
     height: 20px;
 }
 
-#apellido {
+#input-lastname {
     padding: 10px;
     border-radius: 50px; 
     height: 20px;
@@ -108,10 +111,15 @@ img {
 .send {
  padding: 30px;
  background-color: #FF6969;
- border-radius: 30px;
+ border-radius: 30px; 
  margin: 30px;
  height: 40px;
  font-size: medium;
+}
+.send:hover {
+    color: #FF6969;
+    background-color: antiquewhite;
+    border-color: black;
 }
 .Contacto {
     display: flex;
@@ -120,6 +128,28 @@ img {
     border-radius: 40px;
     padding: 10px;
     margin: 100px;
+
+}
+.fa-brands { 
+    color: #FF6969;
+    font-size: 25px;
+
+
+}
+.fa-brands:hover {
+    color: black;
+    background-color: rgb(247, 8, 247);
+border-radius: 100px;
+}
+.fa-solid {
+    color: #FF6969;
+    font-size: 20px;
+
+}
+.fa-solid:hover {
+color: black;
+background-color:rgb(247, 8, 247);
+border-radius: 150px;
 }
 .Contacto-box {
     width: 40%;
