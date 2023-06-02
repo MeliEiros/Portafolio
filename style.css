@@ -1,21 +1,32 @@
+.nav-sticky {
+    padding: 40px;
+    background-color: #F1D4E5;
+    display: flex;
+   
+    justify-content: space-between;
+
+}
+
 .search { 
     display: flex;
     justify-content: space-between; 
     justify-content: flex-end;
     padding: 40px;
-
-    
-    
-    
-    
-    
-    /*position: sticky;
-    top: 0; */
+    background-color:#F1D4E5 ;
 
 }
+
+
+
 .holaaa {
     font-size: medium;
+    border-radius: 70px;
+    height: 40px;
+    width: 50px;
+    
+
 }
+
 .presentation {
     color: black;
     margin: 30px;
@@ -59,32 +70,55 @@ img {
 }
 
 .container-conocimientos {
-    background-color: rgb(232, 119, 149);
+    background-color: none;
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
+    margin: 100px;
+
 }
-.HTML-5 {
+.HTML-5 { 
+    background-color: black;
+    height: 50px;
+    padding: 50px;
+    width: 100px;
+    text-align: center;
      
 }
 .CSS-3 {
     background-color: aqua;
-    height: 20px;
+    height: 50px;
+    padding: 50px;
+    width: 100px;
+    text-align: center;
 }
 .SASS {
     background-color: blue;
-    height: 20px;
+    height: 50px;
+    padding: 50px;
+    width: 100px;
+    text-align: center;
+
 }
 .JAVASCRIPT {
-    background-color: #FF6969;
-    height: 20px;
+    background-color: yellowgreen;
+    height: 50px;
+    padding: 50px;
+    width: 40px;
+    text-align: center;
 }
 .REACT {
     background-color: violet;
-    height: 20px;
+    height: 50px;
+    padding: 50px;
+    width: 40px;
+    text-align: center;
 }
 .GIT { 
     background-color: grey;
-    height: 20px;
+    height: 50px;
+    padding: 50px;
+    width: 40px;
+    text-align: center;
 }
 .proyectos {
     text-align: center;
@@ -160,6 +194,7 @@ border-radius: 150px;
 }
 .Escribime {
     margin: 30px;
+
 }
 
 .footer-nav {
