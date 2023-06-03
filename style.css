@@ -1,9 +1,10 @@
 .nav-sticky {
+    display: flex;
     padding: 40px;
     background-color: #F1D4E5;
-    display: flex;
-   
-    justify-content: space-between;
+    justify-content: flex-end;
+    
+    
 
 }
 
@@ -212,4 +213,11 @@ border-radius: 150px;
 .footer-nav {
     display: flex;
     justify-content: space-between;
+}
+
+.final-box {
+    padding: 100px;
+    background-color: #FF6969;
+    
+    
 }
