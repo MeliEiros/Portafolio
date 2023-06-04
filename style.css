@@ -8,6 +8,8 @@
 
 }
 
+
+
 .search { 
     display: flex;
     justify-content: space-between; 
@@ -77,48 +79,60 @@ img {
 }
 .HTML-5 { 
     background-color:goldenrod;
+    margin: 10px;
     height: 50px;
     padding: 50px;
     width: 100px;
     text-align: center;
+    border-radius: 10px;
 
      
 }
 .CSS-3 {
     background-color:white;
+    margin: 10px;
     height: 50px;
     padding: 50px;
     width: 100px;
     text-align: center;
+    border-radius: 10px;
 }
 .SASS {
     background-color: blue;
+    margin: 10px;
     height: 50px;
     padding: 50px;
     width: 100px;
     text-align: center;
+    border-radius: 10px;
 
 }
 .JAVASCRIPT {
     background-color: yellowgreen;
+    margin: 10px;
     height: 50px;
     padding: 50px;
-    width: 40px;
+    width: 100px;
     text-align: center;
+    border-radius: 10px;
 }
 .REACT {
     background-color: violet;
+    margin: 10px;
     height: 50px;
     padding: 50px;
-    width: 40px;
+    width: 100px;
     text-align: center;
+    border-radius: 10px;
 }
 .GIT { 
     background-color: grey;
+    margin: 10px;
     height: 50px;
     padding: 50px;
-    width: 40px;
+    width: 100px;
     text-align: center;
+    border-radius: 10px;
 }
 .long-text {
     padding: 200px;
@@ -127,14 +141,16 @@ img {
     
 
 }
-.comillas {
-    font-size: 40px;
-    color: blue;
-}
+
 
 .proyectos {
     text-align: center;
     
+}
+
+.container-proyectos {
+    display: flex;
+
 }
 #input-name {
     padding: 10px;
@@ -162,6 +178,7 @@ img {
  height: 40px;
  font-size: medium;
 }
+
 .send:hover {
     color: #FF6969;
     background-color: antiquewhite;
@@ -212,6 +229,10 @@ border-radius: 150px;
     font-size: 10px;
 
 }
+.user-github:hover {
+    color: #FF6969;
+
+}
 .user-linkedin { 
     font-size: 10px;
 
@@ -231,7 +252,7 @@ border-radius: 150px;
 }
 
 .final-box {
-    padding: 150px;
+    padding: 100px;
     background-color: #FF6969;
     text-align: center;
     list-style: none;
