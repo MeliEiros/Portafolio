@@ -20,7 +20,7 @@
 
 
 .holaaa {
-    font-size: medium;
+    font-size: 10px;
     border-radius: 70px;
     height: 40px;
     width: 50px;
@@ -61,13 +61,7 @@ img {
     display: block;
     margin-left: 650px;
     padding-top: none;
-
-
-
-
-}
-
-
+} 
 .conocimientos {
     text-align: center;
 
@@ -127,9 +121,15 @@ img {
     text-align: center;
 }
 .long-text {
+    padding: 200px;
     text-align: center;
-    background-color: #FF6969;
+    background-color: #F1D4E5;
+    
 
+}
+.comillas {
+    font-size: 40px;
+    color: blue;
 }
 
 .proyectos {
@@ -177,7 +177,7 @@ img {
 
 }
 .fa-brands { 
-    color: #FF6969;
+    color: black;
     font-size: 25px;
 
 
@@ -196,6 +196,7 @@ border-radius: 100px;
 color: black;
 background-color:rgb(247, 8, 247);
 border-radius: 150px;
+
 }
 .Contacto-box {
     width: 40%;
@@ -203,7 +204,21 @@ border-radius: 150px;
     background-color:beige;
     margin: 30px;
     margin-left: none;
+    list-style: none;
     
+}
+
+.user-github { 
+    font-size: 10px;
+
+}
+.user-linkedin { 
+    font-size: 10px;
+
+}
+
+.user-mail {
+    font-size: 10px;
 }
 .Escribime {
     margin: 30px;
@@ -216,8 +231,10 @@ border-radius: 150px;
 }
 
 .final-box {
-    padding: 100px;
+    padding: 150px;
     background-color: #FF6969;
+    text-align: center;
+    list-style: none;
     
     
 }
