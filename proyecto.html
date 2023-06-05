@@ -10,16 +10,19 @@
 </head>
 
 <body>
-    <header> 
-        <div class="nav-sticky"> 
-        <nav class="search">
-
-             <div class="holaaa"><a href="#HOLA"> HOLA </a></div> 
-             <div class="conocimientos"><a href="#CONOCIMIENTOS"> CONOCIMIENTOS </a></div>
-             <div class="proyectos"><a href="#PROYECTOS"> PROYECTOS </a></div> 
-             <div class="contacto"><a href="#CONTACTO"> CONTACTO </a></div>  
-            </nav>
-        </div>
+    <header class="header"> 
+        <nav class="barra-navegacion"> 
+            <ul class="search">
+                <li> <a href="#HOLA" class="hola-barra"> HOLA </a> 
+                </li>
+                <li class="conocimientos-barra"> <a href="#CONOCIMIENTOS" class="conocimientos-barra"> CONOCIMIENTOS </a> 
+                </li>
+                <li class="proyectos-barra"> <a href="#PROYECTOS" class="proyectos-barra"> PROYECTOS </a> 
+                </li>
+                <li class="contacto-barra"> <a href="#CONTACTO" class="contacto-barra"> CONTACTO </a>
+                </li>
+            </ul>
+        </nav>
     </header>
 
     <h1 class="presentation">  
@@ -69,7 +72,7 @@ Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis fugiat, fa
         <div class="container-proyectos"> 
         <div class="portafolio"> </div>
         <div class="generador de memes"> </div>
-        <div class="Match-3"></div>
+        <div class="Match-3">  </div>
         <div class="controlador-gastos"> </div>
         <div class="administrador-reuniones"></div>
         <div class="todo-app"></div>
@@ -85,7 +88,7 @@ Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis fugiat, fa
         <div class="Contacto-box">
         <h2> Contactame </h2> 
        <br> <h3>Si te gustó lo que hago me podes contactar a traves de estas redes: </h3>
-       <ul>
+       <ul class="first-list-icons">
         <li> 
             <i class="fa-brands fa-github-alt"> <a class="user-github"> MeliEiros </a></i>
         </li>
@@ -121,7 +124,7 @@ Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis fugiat, fa
             Mensaje
         </label>
         <br>
-        <textarea id="Mensaje" placeholder="Escriba un mensaje aquí"> </textarea>
+        <textarea id="Mensaje" cols="35" rows="10" placeholder="Escriba un mensaje aquí"></textarea>
     </form>
     <button class="send" Enviar>Enviar</button>
     </div>
@@ -130,18 +133,24 @@ Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis fugiat, fa
    
     <footer> 
         <div class="final-box"> 
-            <a href="#HOLA"> HOLA </a>
-            <a href="#CONOCIMIENTOS"> CONOCIMIENTOS </a>
-            <a href="#PROYECTOS"> PROYECTOS </a>
-            <a href="#CONTACTO"> CONTACTO </a>
-        <ul>
-                <li>
+            <ul class="navegation-footer">
+            <li> <a href="#HOLA" class="hola-footer"> HOLA </a>
+            </li>
+            <li> <a href="#CONOCIMIENTOS" class="conocimientos-footer"> CONOCIMIENTOS </a>
+            </li>
+            <li> <a href="#PROYECTOS" class="proyectos-footer"> PROYECTOS </a>
+            </li>
+            <li> <a href="#CONTACTO" class="contacto-footer"> CONTACTO </a>
+            </li>
+        </ul>
+        <ul class="iconos-list">
+                <li class="github">
             <i class="fa-brands fa-github-alt"></i>
         </li>
-        <li> 
+        <li class="linkedin"> 
             <i class="fa-brands fa-linkedin-in"></i>
         </li>
-        <li>
+        <li class="mail">
             <i class="fa-solid fa-envelope"></i>
         </li>
             </ul>
