@@ -16,29 +16,16 @@
     flex-wrap: wrap;
 }
 .presentation { 
-    width: 100px;
+    width: 100%;
     display: flex;
 }
-.PRESENTATION { 
+.presentation-name { 
     width: 50%;
 }
-.foto {
-    height: 10px;
-    width: 10px;
+.presentation-img {
+    width: 100%;
 }
- .imag { 
-    width: 50%;
- }
-
-/*.imagen2 { 
-    width: 350%;
-    height: 250%;
-    justify-content: center;
-    margin-right: 900px;
-    margin-top: 200px;
- } */ 
-
-.hola-barra { 
+ .hola-barra { 
     color: black;
     text-decoration: none;
     margin: 15px;
@@ -46,8 +33,6 @@
 .hola-barra:hover {
     color: #FF6969;
 }
-
-
 .conocimientos-barra {
     color: black;
     text-decoration: none;
@@ -63,8 +48,6 @@
 }
 .proyectos-barra:hover { 
     color: #FF6969;
-   
-
 }
 .contacto-barra { 
     color:white;
@@ -73,18 +56,14 @@
     background-color: #FF6969;
     border-radius: 20px;
 }
-
-.presentation {
+.hello {
     color: black;
     margin: 30px;
-    
 }
 .presentation-2 {
     color:#FF6969;
     margin: 30px;
     font-size: 40px;
-    
-
 }
 .description {
     margin: 30px;
@@ -103,24 +82,12 @@
     background-color: aliceblue;
     border-color: black;
 }
-
-/*img {
-    width: 40%;
-    height: 20%;
-    display: block;
-    margin-left: 650px;
-    padding-top: none;
-    margin-top: 0;
-
-
-} */
 .conocimientos {
     text-align: center;
 }
 .size-conoc { 
     font-size: 25px;
 }
-
 .container-conocimientos {
     background-color: none;
     display: flex;
@@ -128,9 +95,6 @@
     margin: 100px;
     flex-wrap: wrap;
     border-radius: 5px;
-
-    
-
 }
 .fa-html5 { 
     font-size: 75px;
@@ -183,12 +147,10 @@
     text-align: center;
     border: 1px solid azure;
     border-radius: 10px;
-     
 }
 .HTML-5:hover { 
     border: 1px solid #FF6969;
 }
-
 .CSS-3 {
     background-color:antiquewhite;
     margin: 10px;
@@ -198,7 +160,6 @@
     text-align: center;
     border: 1px solid azure;
     border-radius: 10px;
-
 }
 .CSS-3:hover {
     border: 1px solid #FF6969;
@@ -212,7 +173,6 @@
     text-align: center;
     border: 1px solid azure;
     border-radius: 10px;
-
 }
 .SASS:hover { 
     border: 1px solid #FF6969;
@@ -259,7 +219,6 @@
 .fa-quote-right { 
     font-size: 5rem;
     color: black;
-
 }
 .long-text {
     padding: 200px;
@@ -270,12 +229,9 @@
     font-size: 25px;
     font-family: 'Overpass', sans-serif; ;
 }
-
 .proyectos {
     text-align: center;
-    
 }
-
 .container-proyectos {
     display: flex;
     background-color:none ;
@@ -383,6 +339,7 @@
     padding: 10px;
     border-radius: 50px; 
     height: 20px;
+    width: 100%;
     
 }
 .send {
@@ -393,6 +350,7 @@
  height: 40px;
  font-size: medium;
  border: 1px solid black;
+
 }
 
 .send:hover {
@@ -407,58 +365,25 @@
     border-radius: 40px;
     padding: 25px;
     margin: 100px;
-    
-
 }
-/*.fa-brands { 
-    color: black;
-    font-size: 70px;
-
-
-}
-.icon-html { 
-    color: blue;
-}
-.fa-brands:hover {
-    color: black;
-    background-color: rgb(247, 8, 247);
-border-radius: 100px;
-}
-.fa-solid {
-    color:black;
-    font-size: 20px;
-
-}
-.fa-solid:hover {
-color: black;
-background-color:rgb(247, 8, 247);
-border-radius: 150px;
-
-} */
-
 .Contacto-box {
     width: 50%;
     height: 30%;
     background-color:beige;
     margin: 30px;
     margin-left: none;
-    
 }
 .first-list-icons {
     list-style: none;
 }
 .fa-github-alt { 
     font-size: 30px;
-    color:black
+    color:black;
     border-radius: 10px;
-    
-
 }
-
 .user-github { 
     font-size: 25px;
     font-family: 'Abel', sans-serif;
-
 }
 .user-github:hover {
     color: #FF6969;
@@ -466,9 +391,7 @@ border-radius: 150px;
 .fa-linkedin-in { 
     font-size: 30px;
     color:black;
-
 }
-
 .user-linkedin { 
     font-size: 25px;
     font-family: 'Abel', sans-serif;
@@ -486,45 +409,32 @@ border-radius: 150px;
 .fa-envelope { 
     font-size: 30px;
     color:black;
-    
 }
-
 .iconos-list {
     list-style: none;
     display: flex;
     justify-content: center;
 }
-
 .Escribime {
     margin: 30px;
-
 }
 .input-name:active {
     border-color: #FF6969;
-
 }
-
-
 .footer-nav {
     display: flex;
     justify-content: space-between;
 }
-
 .final-box {
     padding: 100px;
     background-color: #FF6969;
     text-align: center;
     list-style: none;
-
-    
-    
 }
-
 .navegation-footer { 
     list-style: none;
     display: flex;
     justify-content: center;
-
 }
 .hola-footer { 
     color: black;
@@ -546,21 +456,17 @@ border-radius: 150px;
     text-decoration: none;
     margin: 10px;
 }
-
 .github { 
     font-size: 25px;
     margin: 10px;
-
 }
 .github:hover { 
     background-color: white;
     border-radius: 50px;
-
 }
 .linkedin { 
     font-size: 25px;
     margin: 10px;
-   
 }
 .linkedin:hover { 
     background-color: white;
