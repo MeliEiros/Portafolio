@@ -2,6 +2,8 @@
     z-index: 10;
     position: sticky;
     top: 0;
+    width: 100%;
+    
 }
 .search { 
     padding: 60px;
@@ -182,17 +184,17 @@ img {
     flex-wrap: wrap;
 }
 .img-portafolio { 
-    background-color: black;
+    background-color: antiquewhite;
     margin: 10px;
-    height: 70px;
+    height: 100px;
     padding: 90px;
     width: 100px;
     border-radius: 10px;
 }
 .img-g-memes { 
-    background-color: aqua;
+    background-color: antiquewhite;
     margin: 10px;
-    height: 70px;
+    height: 100px;
     padding: 90px;
     width: 100px;
     border-radius: 10px;
@@ -200,7 +202,7 @@ img {
 }
 .img-match-3 { 
     margin: 10px;
-    height: 70px;
+    height: 100px;
     padding: 90px;
     width: 100px;
     background-color: antiquewhite;
@@ -208,7 +210,7 @@ img {
 }
 .img-money { 
     margin: 10px;
-    height: 70px;
+    height: 100px;
     padding: 90px;
     width: 100px;
     background-color: antiquewhite;
@@ -216,7 +218,7 @@ img {
 }
 .img-reuniones { 
     margin: 10px;
-    height: 70px;
+    height: 100px;
     padding: 90px;
     width: 100px;
     background-color: antiquewhite;
@@ -224,7 +226,7 @@ img {
 }
 .img-app { 
     margin: 10px;
-    height: 70px;
+    height: 100px;
     padding: 90px;
     width: 100px;
     background-color: antiquewhite;
@@ -232,7 +234,7 @@ img {
 }
 .img-movies { 
     margin: 10px;
-    height: 70px;
+    height: 100px;
     padding: 90px;
     width: 100px;
     background-color: antiquewhite;
