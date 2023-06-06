@@ -15,6 +15,29 @@
     justify-content: end;
     flex-wrap: wrap;
 }
+.presentation { 
+    width: 100px;
+    display: flex;
+}
+.PRESENTATION { 
+    width: 50%;
+}
+.foto {
+    height: 10px;
+    width: 10px;
+}
+ .imag { 
+    width: 50%;
+ }
+
+/*.imagen2 { 
+    width: 350%;
+    height: 250%;
+    justify-content: center;
+    margin-right: 900px;
+    margin-top: 200px;
+ } */ 
+
 .hola-barra { 
     color: black;
     text-decoration: none;
@@ -81,15 +104,16 @@
     border-color: black;
 }
 
-img {
+/*img {
     width: 40%;
     height: 20%;
     display: block;
     margin-left: 650px;
     padding-top: none;
+    margin-top: 0;
 
 
-} 
+} */
 .conocimientos {
     text-align: center;
 }
