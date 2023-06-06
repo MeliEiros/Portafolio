@@ -54,10 +54,13 @@
 .presentation {
     color: black;
     margin: 30px;
+    
 }
 .presentation-2 {
     color:#FF6969;
     margin: 30px;
+    font-size: 40px;
+    
 
 }
 .description {
@@ -105,7 +108,48 @@ img {
     
 
 }
-
+.fa-html5 { 
+    font-size: 75px;
+    color: #e54d26;
+}
+.fa-css3-alt {
+    font-size: 75px;
+    color:#3d8fc6 ;
+}
+.fa-sass {
+    font-size: 75px;
+    color: #c69 ;
+}
+.fa-square-js { 
+    font-size: 75px;
+    color:#f0db4f;
+}
+.fa-react { 
+    font-size: 75px;
+    color:#61dafb ;
+}
+.fa-git-alt { 
+    font-size: 75px;
+    color:#f34f29 ;
+}
+.html-tittle { 
+    font-family: 'Geologica', sans-serif;
+}
+.css-tittle { 
+    font-family: 'Geologica', sans-serif;
+}
+.sass-tittle { 
+    font-family: 'Geologica', sans-serif;
+}
+.js-tittle { 
+    font-family: 'Geologica', sans-serif;
+}
+.react-tittle { 
+    font-family: 'Geologica', sans-serif;
+}
+.git-tittle { 
+    font-family: 'Geologica', sans-serif;
+}
 .HTML-5 { 
     background-color:antiquewhite;
     margin: 10px;
@@ -113,10 +157,13 @@ img {
     padding: 90px;
     width: 100px;
     text-align: center;
+    border: 1px solid azure;
     border-radius: 10px;
      
 }
-
+.HTML-5:hover { 
+    border: 1px solid #FF6969;
+}
 
 .CSS-3 {
     background-color:antiquewhite;
@@ -125,7 +172,12 @@ img {
     padding: 90px;
     width: 100px;
     text-align: center;
+    border: 1px solid azure;
     border-radius: 10px;
+
+}
+.CSS-3:hover {
+    border: 1px solid #FF6969;
 }
 .SASS {
     background-color:antiquewhite;
@@ -134,8 +186,12 @@ img {
     padding: 90px;
     width: 100px;
     text-align: center;
+    border: 1px solid azure;
     border-radius: 10px;
 
+}
+.SASS:hover { 
+    border: 1px solid #FF6969;
 }
 .JAVASCRIPT {
     background-color:antiquewhite;
@@ -144,7 +200,11 @@ img {
     padding: 90px;
     width: 100px;
     text-align: center;
+    border: 1px solid azure;
     border-radius: 10px;
+}
+.JAVASCRIPT:hover { 
+    border: 1px solid #FF6969;
 }
 .REACT {
     background-color: antiquewhite;
@@ -153,7 +213,11 @@ img {
     padding: 90px;
     width: 100px;
     text-align: center;
+    border: 1px solid azure;
     border-radius: 10px;
+}
+.REACT:hover { 
+    border: 1px solid #FF6969;
 }
 .GIT { 
     background-color: antiquewhite;
@@ -162,14 +226,26 @@ img {
     padding: 90px;
     width: 100px;
     text-align: center;
+    border: 1px solid azure;
     border-radius: 10px;
+}
+.GIT:hover {
+    border: 1px solid #FF6969;
+}
+.fa-quote-right { 
+    font-size: 5rem;
+    color: black;
+
 }
 .long-text {
     padding: 200px;
     text-align: center;
     background-color: #F1D4E5;
 }
-
+.long-text2 { 
+    font-size: 25px;
+    font-family: 'Overpass', sans-serif; ;
+}
 
 .proyectos {
     text-align: center;
@@ -189,7 +265,11 @@ img {
     height: 100px;
     padding: 90px;
     width: 100px;
+    border: 1px solid azure;
     border-radius: 10px;
+}
+.img-portafolio:hover {
+    border: 1px solid #FF6969;
 }
 .img-g-memes { 
     background-color: antiquewhite;
@@ -197,8 +277,11 @@ img {
     height: 100px;
     padding: 90px;
     width: 100px;
+    border: 1px solid azure;
     border-radius: 10px;
-
+}
+.img-g-memes:hover {
+    border: 1px solid #FF6969;
 }
 .img-match-3 { 
     margin: 10px;
@@ -206,7 +289,11 @@ img {
     padding: 90px;
     width: 100px;
     background-color: antiquewhite;
+    border: 1px solid azure;
     border-radius: 10px;
+}
+.img-match-3:hover { 
+    border: 1px solid #FF6969;
 }
 .img-money { 
     margin: 10px;
@@ -214,7 +301,11 @@ img {
     padding: 90px;
     width: 100px;
     background-color: antiquewhite;
+    border: 1px solid azure;
     border-radius: 10px;
+}
+.img-money:hover {
+    border: 1px solid #FF6969;
 }
 .img-reuniones { 
     margin: 10px;
@@ -222,7 +313,11 @@ img {
     padding: 90px;
     width: 100px;
     background-color: antiquewhite;
+    border: 1px solid azure;
     border-radius: 10px;
+}
+.img-reuniones:hover {
+    border: 1px solid #FF6969;
 }
 .img-app { 
     margin: 10px;
@@ -230,7 +325,11 @@ img {
     padding: 90px;
     width: 100px;
     background-color: antiquewhite;
+    border: 1px solid azure;
     border-radius: 10px;
+}
+.img-app:hover { 
+    border: 1px solid #FF6969;
 }
 .img-movies { 
     margin: 10px;
@@ -238,7 +337,11 @@ img {
     padding: 90px;
     width: 100px;
     background-color: antiquewhite;
+    border: 1px solid azure;
     border-radius: 10px;
+}
+.img-movies:hover { 
+    border: 1px solid #FF6969;
 }
 #input-name {
     padding: 10px;
@@ -283,7 +386,7 @@ img {
     
 
 }
-.fa-brands { 
+/*.fa-brands { 
     color: black;
     font-size: 70px;
 
@@ -307,47 +410,67 @@ color: black;
 background-color:rgb(247, 8, 247);
 border-radius: 150px;
 
-} 
+} */
 
 .Contacto-box {
-    width: 40%;
+    width: 50%;
     height: 30%;
     background-color:beige;
     margin: 30px;
     margin-left: none;
-
     
 }
 .first-list-icons {
     list-style: none;
 }
+.fa-github-alt { 
+    font-size: 30px;
+    color:black
+    border-radius: 10px;
+    
+
+}
 
 .user-github { 
-    font-size: 15px;
+    font-size: 25px;
+    font-family: 'Abel', sans-serif;
 
 }
 .user-github:hover {
     color: #FF6969;
+}
+.fa-linkedin-in { 
+    font-size: 30px;
+    color:black;
 
 }
-.user-linkedin { 
-    font-size: 15px;
 
+.user-linkedin { 
+    font-size: 25px;
+    font-family: 'Abel', sans-serif;
 }
 .user-linkedin:hover { 
     color: #FF6969;
 }
 .user-mail {
-    font-size: 15px;
+    font-size: 25px;
+    font-family: 'Abel', sans-serif;
 }
 .user-mail:hover { 
     color: #FF6969;
 }
+.fa-envelope { 
+    font-size: 30px;
+    color:black;
+    
+}
+
 .iconos-list {
     list-style: none;
     display: flex;
     justify-content: center;
 }
+
 .Escribime {
     margin: 30px;
 
@@ -399,6 +522,7 @@ border-radius: 150px;
     text-decoration: none;
     margin: 10px;
 }
+
 .github { 
     font-size: 25px;
     margin: 10px;
