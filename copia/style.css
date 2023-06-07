@@ -1,0 +1,482 @@
+.header { 
+    z-index: 10;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    
+}
+.search { 
+    padding: 60px;
+    background-color:#F1D4E5 ;
+    list-style: none;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: end;
+    flex-wrap: wrap;
+}
+.presentation { 
+    width: 100%;
+    display: flex;
+}
+.presentation-name { 
+    width: 50%;
+}
+.presentation-img {
+    width: 100%;
+}
+ .hola-barra { 
+    color: black;
+    text-decoration: none;
+    margin: 15px;
+}
+.hola-barra:hover {
+    color: #FF6969;
+}
+.conocimientos-barra {
+    color: black;
+    text-decoration: none;
+    margin: 15px;
+}
+.conocimientos-barra :hover { 
+    color: #FF6969;
+}
+.proyectos-barra { 
+    color: black;
+    text-decoration: none;
+    margin: 15px;
+}
+.proyectos-barra:hover { 
+    color: #FF6969;
+}
+.contacto-barra { 
+    color:white;
+    text-decoration: none;
+    margin: 15px;
+    background-color: #FF6969;
+    border-radius: 20px;
+}
+.hello {
+    color: black;
+    margin: 30px;
+}
+.presentation-2 {
+    color:#FF6969;
+    margin: 30px;
+    font-size: 40px;
+}
+.description {
+    margin: 30px;
+}
+.first-button { 
+    padding: 20px;
+    margin: 30px;
+    border-radius: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background-color:#FF6969;
+    border: 1px solid black;
+}
+.first-button:hover {
+   color: #FF6969;
+    background-color: aliceblue;
+    border-color: black;
+}
+.conocimientos {
+    text-align: center;
+}
+.size-conoc { 
+    font-size: 25px;
+}
+.container-conocimientos {
+    background-color: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 100px;
+    flex-wrap: wrap;
+    border-radius: 5px;
+}
+.fa-html5 { 
+    font-size: 75px;
+    color: #e54d26;
+}
+.fa-css3-alt {
+    font-size: 75px;
+    color:#3d8fc6 ;
+}
+.fa-sass {
+    font-size: 75px;
+    color: #c69 ;
+}
+.fa-square-js { 
+    font-size: 75px;
+    color:#f0db4f;
+}
+.fa-react { 
+    font-size: 75px;
+    color:#61dafb ;
+}
+.fa-git-alt { 
+    font-size: 75px;
+    color:#f34f29 ;
+}
+.html-tittle { 
+    font-family: 'Geologica', sans-serif;
+}
+.css-tittle { 
+    font-family: 'Geologica', sans-serif;
+}
+.sass-tittle { 
+    font-family: 'Geologica', sans-serif;
+}
+.js-tittle { 
+    font-family: 'Geologica', sans-serif;
+}
+.react-tittle { 
+    font-family: 'Geologica', sans-serif;
+}
+.git-tittle { 
+    font-family: 'Geologica', sans-serif;
+}
+.HTML-5 { 
+    background-color:antiquewhite;
+    margin: 10px;
+    height: 70px;
+    padding: 90px;
+    width: 100px;
+    text-align: center;
+    border: 1px solid azure;
+    border-radius: 10px;
+}
+.HTML-5:hover { 
+    border: 1px solid #FF6969;
+}
+.CSS-3 {
+    background-color:antiquewhite;
+    margin: 10px;
+    height: 70px;
+    padding: 90px;
+    width: 100px;
+    text-align: center;
+    border: 1px solid azure;
+    border-radius: 10px;
+}
+.CSS-3:hover {
+    border: 1px solid #FF6969;
+}
+.SASS {
+    background-color:antiquewhite;
+    margin: 10px;
+    height: 70px;
+    padding: 90px;
+    width: 100px;
+    text-align: center;
+    border: 1px solid azure;
+    border-radius: 10px;
+}
+.SASS:hover { 
+    border: 1px solid #FF6969;
+}
+.JAVASCRIPT {
+    background-color:antiquewhite;
+    margin: 10px;
+    height: 70px;
+    padding: 90px;
+    width: 100px;
+    text-align: center;
+    border: 1px solid azure;
+    border-radius: 10px;
+}
+.JAVASCRIPT:hover { 
+    border: 1px solid #FF6969;
+}
+.REACT {
+    background-color: antiquewhite;
+    margin: 10px;
+    height: 70px;
+    padding: 90px;
+    width: 100px;
+    text-align: center;
+    border: 1px solid azure;
+    border-radius: 10px;
+}
+.REACT:hover { 
+    border: 1px solid #FF6969;
+}
+.GIT { 
+    background-color: antiquewhite;
+    margin: 10px;
+    height: 70px;
+    padding: 90px;
+    width: 100px;
+    text-align: center;
+    border: 1px solid azure;
+    border-radius: 10px;
+}
+.GIT:hover {
+    border: 1px solid #FF6969;
+}
+.fa-quote-right { 
+    font-size: 5rem;
+    color: black;
+}
+.long-text {
+    padding: 200px;
+    text-align: center;
+    background-color: #F1D4E5;
+}
+.long-text2 { 
+    font-size: 25px;
+    font-family: 'Overpass', sans-serif; ;
+}
+.proyectos {
+    text-align: center;
+}
+.container-proyectos {
+    display: flex;
+    background-color:none ;
+    justify-content: space-between;
+    margin: 100px;
+    flex-wrap: wrap;
+}
+.img-portafolio { 
+    background-color: antiquewhite;
+    margin: 10px;
+    height: 100px;
+    padding: 90px;
+    width: 100px;
+    border: 1px solid azure;
+    border-radius: 10px;
+}
+.img-portafolio:hover {
+    border: 1px solid #FF6969;
+}
+.img-g-memes { 
+    background-color: antiquewhite;
+    margin: 10px;
+    height: 100px;
+    padding: 90px;
+    width: 100px;
+    border: 1px solid azure;
+    border-radius: 10px;
+}
+.img-g-memes:hover {
+    border: 1px solid #FF6969;
+}
+.img-match-3 { 
+    margin: 10px;
+    height: 100px;
+    padding: 90px;
+    width: 100px;
+    background-color: antiquewhite;
+    border: 1px solid azure;
+    border-radius: 10px;
+}
+.img-match-3:hover { 
+    border: 1px solid #FF6969;
+}
+.img-money { 
+    margin: 10px;
+    height: 100px;
+    padding: 90px;
+    width: 100px;
+    background-color: antiquewhite;
+    border: 1px solid azure;
+    border-radius: 10px;
+}
+.img-money:hover {
+    border: 1px solid #FF6969;
+}
+.img-reuniones { 
+    margin: 10px;
+    height: 100px;
+    padding: 90px;
+    width: 100px;
+    background-color: antiquewhite;
+    border: 1px solid azure;
+    border-radius: 10px;
+}
+.img-reuniones:hover {
+    border: 1px solid #FF6969;
+}
+.img-app { 
+    margin: 10px;
+    height: 100px;
+    padding: 90px;
+    width: 100px;
+    background-color: antiquewhite;
+    border: 1px solid azure;
+    border-radius: 10px;
+}
+.img-app:hover { 
+    border: 1px solid #FF6969;
+}
+.img-movies { 
+    margin: 10px;
+    height: 100px;
+    padding: 90px;
+    width: 100px;
+    background-color: antiquewhite;
+    border: 1px solid azure;
+    border-radius: 10px;
+}
+.img-movies:hover { 
+    border: 1px solid #FF6969;
+}
+#input-name {
+    padding: 10px;
+    border-radius: 50px; 
+    height: 20px;
+}
+
+#input-lastname {
+    padding: 10px;
+    border-radius: 50px; 
+    height: 20px;
+
+}
+#form-email {
+    padding: 10px;
+    border-radius: 50px; 
+    height: 20px;
+    width: 100%;
+    
+}
+.send {
+ padding: 30px;
+ background-color: #FF6969;
+ border-radius: 30px; 
+ margin: 30px;
+ height: 40px;
+ font-size: medium;
+ border: 1px solid black;
+
+}
+
+.send:hover {
+    color: #FF6969;
+    background-color: antiquewhite;
+    border-color: black;
+}
+.Contacto {
+    display: flex;
+    justify-content: center;
+    background-color: beige;
+    border-radius: 40px;
+    padding: 25px;
+    margin: 100px;
+}
+.Contacto-box {
+    width: 50%;
+    height: 30%;
+    background-color:beige;
+    margin: 30px;
+    margin-left: none;
+}
+.first-list-icons {
+    list-style: none;
+}
+.fa-github-alt { 
+    font-size: 30px;
+    color:black;
+    border-radius: 10px;
+}
+.user-github { 
+    font-size: 25px;
+    font-family: 'Abel', sans-serif;
+}
+.user-github:hover {
+    color: #FF6969;
+}
+.fa-linkedin-in { 
+    font-size: 30px;
+    color:black;
+}
+.user-linkedin { 
+    font-size: 25px;
+    font-family: 'Abel', sans-serif;
+}
+.user-linkedin:hover { 
+    color: #FF6969;
+}
+.user-mail {
+    font-size: 25px;
+    font-family: 'Abel', sans-serif;
+}
+.user-mail:hover { 
+    color: #FF6969;
+}
+.fa-envelope { 
+    font-size: 30px;
+    color:black;
+}
+.iconos-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.Escribime {
+    margin: 30px;
+}
+.input-name:active {
+    border-color: #FF6969;
+}
+.footer-nav {
+    display: flex;
+    justify-content: space-between;
+}
+.final-box {
+    padding: 100px;
+    background-color: #FF6969;
+    text-align: center;
+    list-style: none;
+}
+.navegation-footer { 
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.hola-footer { 
+    color: black;
+    text-decoration: none;
+    margin: 10px;
+}
+.conocimientos-footer { 
+    color: black;
+    text-decoration: none;
+    margin: 10px;
+}
+.proyectos-footer { 
+    color: black;
+    text-decoration: none;
+    margin: 10px;
+}
+.contacto-footer { 
+    color: black;
+    text-decoration: none;
+    margin: 10px;
+}
+.github { 
+    font-size: 25px;
+    margin: 10px;
+}
+.github:hover { 
+    background-color: white;
+    border-radius: 50px;
+}
+.linkedin { 
+    font-size: 25px;
+    margin: 10px;
+}
+.linkedin:hover { 
+    background-color: white;
+     border-radius: 50px;
+}
+.mail { 
+    font-size: 25px;
+    margin: 10px;
+}
+.mail:hover {
+    background-color: white;
+    border-radius: 50px;
+}
