@@ -6,7 +6,7 @@
     
 }
 .search { 
-    padding: 60px;
+    padding: 60px; 
     background-color:#F1D4E5 ;
     list-style: none;
     color: white;
@@ -14,6 +14,7 @@
     display: flex;
     justify-content: end;
     flex-wrap: wrap;
+    margin: 0;
 }
 .presentation { 
     width: 100%;
@@ -78,7 +79,7 @@
     border: 1px solid black;
 }
 .first-button:hover {
-   color: #FF6969;
+    color: black;
     background-color: aliceblue;
     border-color: black;
 }
@@ -138,7 +139,7 @@
 .git-tittle { 
     font-family: 'Geologica', sans-serif;
 }
-.HTML-5 { 
+.html-5 { 
     background-color:antiquewhite;
     margin: 10px;
     height: 70px;
@@ -148,10 +149,10 @@
     border: 1px solid azure;
     border-radius: 10px;
 }
-.HTML-5:hover { 
-    border: 1px solid #FF6969;
+.html-5:hover { 
+    border: 1px solid black;
 }
-.CSS-3 {
+.css-3 {
     background-color:antiquewhite;
     margin: 10px;
     height: 70px;
@@ -161,10 +162,10 @@
     border: 1px solid azure;
     border-radius: 10px;
 }
-.CSS-3:hover {
-    border: 1px solid #FF6969;
+.css-3:hover {
+    border: 1px solid black;
 }
-.SASS {
+.sass {
     background-color:antiquewhite;
     margin: 10px;
     height: 70px;
@@ -174,10 +175,10 @@
     border: 1px solid azure;
     border-radius: 10px;
 }
-.SASS:hover { 
-    border: 1px solid #FF6969;
+.sass:hover { 
+    border: 1px solid black;
 }
-.JAVASCRIPT {
+.js {
     background-color:antiquewhite;
     margin: 10px;
     height: 70px;
@@ -187,10 +188,10 @@
     border: 1px solid azure;
     border-radius: 10px;
 }
-.JAVASCRIPT:hover { 
-    border: 1px solid #FF6969;
+.js:hover { 
+    border: 1px solid black;
 }
-.REACT {
+.react {
     background-color: antiquewhite;
     margin: 10px;
     height: 70px;
@@ -200,10 +201,10 @@
     border: 1px solid azure;
     border-radius: 10px;
 }
-.REACT:hover { 
-    border: 1px solid #FF6969;
+.react:hover { 
+    border: 1px solid black;
 }
-.GIT { 
+.git { 
     background-color: antiquewhite;
     margin: 10px;
     height: 70px;
@@ -213,8 +214,8 @@
     border: 1px solid azure;
     border-radius: 10px;
 }
-.GIT:hover {
-    border: 1px solid #FF6969;
+.git:hover {
+    border: 1px solid black;
 }
 .fa-quote-right { 
     font-size: 5rem;
@@ -249,7 +250,7 @@
     border-radius: 10px;
 }
 .img-portafolio:hover {
-    border: 1px solid #FF6969;
+    border: 1px solid black;
 }
 .img-g-memes { 
     background-color: antiquewhite;
@@ -261,7 +262,7 @@
     border-radius: 10px;
 }
 .img-g-memes:hover {
-    border: 1px solid #FF6969;
+    border: 1px solid black;
 }
 .img-match-3 { 
     margin: 10px;
@@ -273,7 +274,7 @@
     border-radius: 10px;
 }
 .img-match-3:hover { 
-    border: 1px solid #FF6969;
+    border: 1px solid black;
 }
 .img-money { 
     margin: 10px;
@@ -285,7 +286,7 @@
     border-radius: 10px;
 }
 .img-money:hover {
-    border: 1px solid #FF6969;
+    border: 1px solid black;
 }
 .img-reuniones { 
     margin: 10px;
@@ -297,7 +298,7 @@
     border-radius: 10px;
 }
 .img-reuniones:hover {
-    border: 1px solid #FF6969;
+    border: 1px solid black;
 }
 .img-app { 
     margin: 10px;
@@ -309,7 +310,7 @@
     border-radius: 10px;
 }
 .img-app:hover { 
-    border: 1px solid #FF6969;
+    border: 1px solid black;
 }
 .img-movies { 
     margin: 10px;
@@ -321,7 +322,7 @@
     border-radius: 10px;
 }
 .img-movies:hover { 
-    border: 1px solid #FF6969;
+    border: 1px solid black;
 }
 #input-name {
     padding: 10px;
@@ -350,11 +351,9 @@
  height: 40px;
  font-size: medium;
  border: 1px solid black;
-
 }
-
 .send:hover {
-    color: #FF6969;
+    color: black;
     background-color: antiquewhite;
     border-color: black;
 }
